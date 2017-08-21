@@ -1,0 +1,266 @@
+.inner{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.banner{
+  .slick-next{
+    right: 25px;
+  }
+
+  .slick-prev{
+    left: 25px;
+  }
+
+  .slick-next, .slick-prev{
+    z-index: 100;
+  }
+
+  .slick-next:before, .slick-prev:before{
+    font-size: 30px;
+    color: black;
+  }
+
+  .bx-wrapper{
+    margin-bottom: 0px;
+    border: 0px;
+    border: 0px;
+  }
+}
+
+
+// barra topo
+.barratop{
+  background-color: $preto;
+  color: $branco;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .tel{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: block;
+    float: left;
+  }
+
+  .icontel{
+    background: $vermelho;
+    float: left;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 10px;
+
+    .fa{
+      position: relative;
+      top: 18%;
+      left: 30%;
+      color: $preto;
+    }
+
+  }
+
+  .pull-right{
+    padding-right: 15px;
+  }
+}
+// menu
+.navbar-menu{
+  background-color: $bgmenu;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border-top: $preto solid 1px;
+  border-bottom: $preto 1px solid;
+
+  .navbar-brand{
+    height: auto;
+  }
+
+  .navbar-nav > li > a{
+    color: $preto;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 36px;
+    padding-bottom: 37px;
+    transition-duration: 0.3s;
+  }
+
+  .navbar-nav > li > a:hover{
+    background-color: $vermelho;
+    color: $branco;
+  }
+}
+// banner home
+.banner{
+  background-color: $preto;
+  //height: 300px;
+}
+// Diferenciais
+.titulo-diferenciais{
+  background: url("../images/bg-titulo.png") $pretoClaro center top no-repeat;
+  padding-top: 60px;
+  padding-bottom: 105px;
+
+  h2{
+    color: $branco;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+}
+
+.itens-diferenciais{
+  background-color: $pretoClaro;
+  color: $branco;
+  @extend .inner;
+  figure{
+
+  }
+
+  h3{
+    font-size: 22px;
+  }
+}
+
+// locação de impressoras
+.locacao-impressora{
+  @extend .inner;
+
+  h2{
+    margin: 0;
+  }
+
+  .formulario{
+    background-color: $cinzaClaro;
+    padding: 10px;
+  }
+
+  .titulo-contato{
+    background-color: $vermelho;
+    padding: 9px 0;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  .input-group-addon{
+    border-radius: 0px;
+    background-color: #000;
+    color:$brancoSite;
+  }
+}
+
+.atendimento{
+  background-color: $pretoClaro;
+  color: $branco;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+// fornecedores
+.clientes{
+  background-color: $branco;
+  @extend .titulo-diferenciais;
+}
+
+.lista-fornecedor{
+  @extend .inner;
+}
+
+.receba-noticias{
+  background-color: $cinzaClaro;
+  padding-top: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+
+  span{
+    font-size: 20px;
+    display: block;
+    padding-top: 0px;
+  }
+}
+
+.btn-site{
+  background-color: $preto;
+  border-radius: 0px;
+  color: $branco;
+  transition-duration: 0.3s;
+}
+
+.btn-site:hover{
+  background-color: $pretoClaro;
+  color: $branco;
+}
+
+// promoções
+.promocoes{
+  background: url("../images/bgsetapreta.png") center top no-repeat;
+  @extend .inner;
+  //height: 510px;
+
+  h2{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: $branco;
+  }
+}
+
+// beneficios
+.titulo-beneficios{
+  background-color: $branco;
+  @extend .titulo-diferenciais;
+}
+
+.conteudo-beneficios{
+  @extend .inner;
+}
+
+.subtexto-suprimentos{
+  background-color:$vermelho;
+  padding-top:7px;
+  padding-bottom:7px;
+  color: #fff;
+  font-size: 16px;
+  p{
+    margin-bottom: 0px;
+  }
+}
+
+//  quem somos
+.quem-somos{
+  background-color: $cinzaClaro;
+  @extend .inner;
+}
+
+// footer
+
+footer{
+  padding-top: 14px;
+  padding-bottom:14px;
+  background-color:rgb(237,28,36);
+  color: $branco;
+
+  .icon-email{
+    background: $cinzaClaro;
+    float: left;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 10px;
+
+    .fa{
+      position: relative;
+      top: 15%;
+      left: 30%;
+      color: #000;
+    }
+  }
+}

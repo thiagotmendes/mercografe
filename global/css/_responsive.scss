@@ -1,0 +1,37 @@
+.navbar-toggle{
+  margin-top: 30px;
+
+  .icon-bar{
+    background-color:  $vermelho;
+  }
+}
+
+
+@media (max-width:640px) {
+  // barra topo
+  .barratop{
+    .pull-right{
+      padding-right: 0px;
+    }
+  }
+
+  .promocoes{
+    background: #000;
+    h2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .col-md-4{
+      margin-bottom: 10px;
+    }
+  }
+
+  .navbar-menu{
+    .navbar-nav > li > a{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+  }
+
+}
